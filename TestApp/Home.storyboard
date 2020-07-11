@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="OGN-G7-ujd">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--My Apps-->
+        <scene sceneID="AIp-EQ-ZhO">
+            <objects>
+                <viewController storyboardIdentifier="HomeViewController" title="My Apps" useStoryboardIdentifierAsRestorationIdentifier="YES" id="OGN-G7-ujd" customClass="HomeViewController" customModule="TestApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zED-hN-aDE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="10" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="AFm-HL-pVo">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="135" id="C9R-mQ-11e">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="135"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="C9R-mQ-11e" id="7xo-G8-aCU">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="135"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="OGN-G7-ujd" id="g2S-V5-dDp"/>
+                                    <outlet property="delegate" destination="OGN-G7-ujd" id="OGK-ym-QJg"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="AFm-HL-pVo" firstAttribute="trailing" secondItem="WdM-kB-ye8" secondAttribute="trailing" id="70N-k9-YYK"/>
+                            <constraint firstItem="AFm-HL-pVo" firstAttribute="bottom" secondItem="WdM-kB-ye8" secondAttribute="bottom" id="8Jg-mf-GEz"/>
+                            <constraint firstItem="AFm-HL-pVo" firstAttribute="leading" secondItem="WdM-kB-ye8" secondAttribute="leading" id="ZGh-Cz-Q3h"/>
+                            <constraint firstItem="AFm-HL-pVo" firstAttribute="top" secondItem="WdM-kB-ye8" secondAttribute="top" id="eK6-le-xnl"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="WdM-kB-ye8"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="AFm-HL-pVo" id="yUK-m7-bDF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YuI-s6-5mU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="34.782608695652179" y="65.217391304347828"/>
+        </scene>
+    </scenes>
+</document>

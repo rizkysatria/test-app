@@ -1,0 +1,60 @@
+PODS:
+  - AXPhotoViewer (1.7.1):
+    - AXPhotoViewer/Core (= 1.7.1)
+  - AXPhotoViewer/Core (1.7.1):
+    - AXStateButton (>= 1.1.3)
+    - FLAnimatedImage (>= 1.0.0)
+    - FLAnimatedImage-tvOS (>= 1.0.16)
+  - AXStateButton (1.1.4)
+  - FLAnimatedImage (1.0.12)
+  - ObjectMapper (3.5.1)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - SDWebImage (5.1.1):
+    - SDWebImage/Core (= 5.1.1)
+  - SDWebImage/Core (5.1.1)
+  - Swinject (2.6.2)
+  - SwinjectStoryboard (2.2.0):
+    - Swinject (~> 2.6)
+
+DEPENDENCIES:
+  - AXPhotoViewer (= 1.7.1)
+  - ObjectMapper (= 3.5.1)
+  - RxCocoa (= 5.1.1)
+  - RxSwift (= 5.1.1)
+  - SDWebImage (= 5.1.1)
+  - Swinject (= 2.6.2)
+  - SwinjectStoryboard (= 2.2.0)
+
+SPEC REPOS:
+  trunk:
+    - AXPhotoViewer
+    - AXStateButton
+    - FLAnimatedImage
+    - ObjectMapper
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SDWebImage
+    - Swinject
+    - SwinjectStoryboard
+
+SPEC CHECKSUMS:
+  AXPhotoViewer: f4b021c6e43b0b9dbc7b30cf8b9a4f577d0c1f51
+  AXStateButton: 6c515a433e37551505046429b5be04c12daa8c07
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  SDWebImage: 96d7f03415ccb28d299d765f93557ff8a617abd8
+  Swinject: cf7458774b1b00323080a9c67e47a1ee7f9d2af1
+  SwinjectStoryboard: 32512ef16c2b0ff5b8f823b23539c4a50f6d3383
+
+PODFILE CHECKSUM: 9bf23b51b414fb7455692bd2b5425494cb4b70de
+
+COCOAPODS: 1.9.3
